@@ -1,0 +1,60 @@
+html{
+    background-color: rgb(255, 245, 155);
+}
+#superior{
+    position: sticky;
+	margin-top: 0px;
+	width: 100%;
+}
+
+#lateral{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    left: 0;
+    margin-top: 60px;
+}
+
+#content{
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 90px;
+    padding-bottom: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+}
+
+img{
+    height: 75px;
+}
+
+#back{
+    float: right;
+}
+input{
+    width: 500px;
+    height: 25px;
+    font-size: 0.5cm;
+}
+
+h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.boton{
+    width: auto;
+    height: auto;
+}
+#centro{
+    text-align: center;
+}

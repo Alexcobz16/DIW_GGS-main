@@ -1,0 +1,130 @@
+/* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* RESETEO LIMITADO DE PROPIEDADES */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px; 
+}
+
+/* Estilo para las fuentes en toda la página */
+body {
+ font-weight: bolder; 
+}
+
+/* Establecemos el centrado y las dimensiones de los elementos principales */
+nav,.container,footer {
+  max-width: 1200px;
+  min-width: 576px;
+  margin:0px auto;  
+}
+
+
+
+/* Estilos para el menú principal */
+nav {
+  background-color: #121867;
+  color: rgb(243, 55, 132);
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+nav div {
+
+}
+
+/* Estilos para la cabecera */
+header {
+  position: relative;
+  text-align: center;
+}
+
+/* Fondo de la cabecera */
+header img {
+  opacity: 0.7;
+}
+
+
+/* Call for action para Comprar */
+aside {
+  background-color: #121867;
+  color: rgb(243, 55, 132);
+  position: absolute;
+  padding: 10px;  
+}
+
+aside a {
+}
+
+aside h3 {
+}
+
+/* Elemento principal con las 3 cards */
+main {
+}
+main h1 {
+}
+
+/* Línea separados de elementos */
+main h1::after,
+main:after {
+}
+
+/* Estilos para la zona de las cards */
+.cards {
+}
+.cards .card {
+}
+
+.cards .card img {
+}
+
+
+/* Sección con la botella y los tres párrafos descriptivos */
+.bottle {
+}
+
+.bottle img {
+}
+
+.bottle div {
+}
+
+/* Mostrarmos la primera letra con un borde diferente */
+.bottle div::first-letter {
+}
+
+
+/* Estilos para la galería de imágenes */
+.gallery {
+}
+.gallery img {
+}
+
+
+/* Estilos para el pie de página */
+footer {
+}
+
+footer address {
+}
+
+footer div {
+}
+
+footer section {
+
+}
+
+footer img {
+}
