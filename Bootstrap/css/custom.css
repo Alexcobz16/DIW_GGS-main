@@ -1,0 +1,14 @@
+html{
+    background-color: rgb(204, 204, 204);
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+}
+
+#busqueda{
+    display: inline-block;
+    margin-left: 3px;
+    background-color: rgb(84, 189, 180);
+}
